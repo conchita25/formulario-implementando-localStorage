@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con DOM y LocalStorage</title>
+</head>
+
+<body>
+
+    <h1>Registro de estudiantes</h1>
+
+    <form id="formulario">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        <br><br>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" required>
+        <br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" required>
+        <br><br>
+
+        <button type="submit">Guardar</button>
+
+    </form>
+
+    <h2>Estudiantes registrados</h2>
+
+    <div id="lista"></div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
